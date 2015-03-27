@@ -3,7 +3,7 @@
 import sys
 
 def count_name(filename, protein_name):
-    input_file = open(sys.argv[1])
+    input_file = open(filename)
     count = 0
     for line in input_file:
         if line.rstrip() == protein_name:
